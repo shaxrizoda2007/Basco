@@ -1,0 +1,483 @@
+header {
+    background-color: #7d1616;
+}
+
+.main_block {
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+}
+
+.main_item h1 span {
+    font-weight: 900;
+    color: orange;
+}
+
+.main_item h1 {
+    color: white;
+}
+
+.main_item img {
+    height: 20px;
+    width: 20px;
+}
+
+.main_list_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 760px;
+}
+
+.main_text p {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.main_item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_text {
+    margin-left: 10px;
+}
+
+.main_item_1 {
+    height: 35px;
+    width: 35px;
+}
+
+.you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/banner1.jpg");
+    height: 721px;
+    background-size: cover;
+}
+
+.img_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_list button:hover {
+    color: white;
+    background-color: orange;
+    transition: 1s;
+}
+
+.img_list button {
+    text-align: center;
+    border: none;
+    width: 230px;
+    height: 60px;
+}
+
+.img_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    margin: 50px;
+}
+
+.img_text h1 span {
+    color: orange;
+    font-size: 70px;
+}
+
+.img_text h1 {
+    font-size: 70px;
+}
+
+.img_boll {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.img_boll:nth-child(2) {
+    background-color: white;
+}
+
+.img_bal {
+    display: flex;
+    justify-content: space-around;
+    width: 110px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.lol_main {
+    height: 100vh;
+    background-color: white;
+}
+
+.lol_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 1105px;
+    box-shadow: 3px 2px 10px 0 #a8a5a5;
+    margin-top: 100px;
+}
+
+.lol_art img {
+    width: 673px;
+    height: 345px;
+    position: relative;
+    left: 30px;
+}
+
+.lol_art {
+    text-align: center;
+}
+
+.lol_text_p {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.lol_text_p p {
+    font-size: 22px;
+}
+
+.lol_text_p button {
+    border: none;
+    width: 220px;
+    height: 60px;
+    background-color: #8b1f1f;
+    color: white;
+}
+
+.lol_text_p button:hover {
+    background-color: orange;
+    transition: 1s;
+}
+
+.min_main {
+    display: flex;
+    align-items: center;
+    height: 725px;
+    background-image: url("img/bg.png");
+    background-size: cover;
+    background-color: white;
+}
+
+.min_text {
+    margin-top: 50px;
+}
+
+.min_text h1 span {
+    color: orange;
+}
+
+.min_text h1 {
+    color: white;
+}
+
+.min_text p {
+    color: white;
+}
+
+.cool_main {
+    height: 100vh;
+    background-color: white;
+}
+
+.cool_but {
+    display: flex;
+    margin-top: 60px;
+}
+
+.cool_but button {
+    width: 150px;
+    height: 40px;
+    background-color: #8b1f1f;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+.cool_but_2 {
+    display: flex;
+}
+
+.cool_but_2 button {
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 40px;
+    border: none;
+}
+
+.cool_but_2 button:hover {
+    background-color: #8b1f1f;
+    transition: 0.5s;
+    color: white;
+}
+
+.cool_arrow {
+    width: 370px;
+    height: 370px;
+    position: relative;
+    background-size: cover;
+}
+
+.cool_arrow_1 {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    border-radius: 50%;
+    width: 370px;
+    height: 370px;
+    color: white;
+    align-items: center;
+    transition: 1s;
+}
+
+.rasm1 {
+    left: 0;
+    background-image: url("img/service_img1.png");
+}
+
+.rasm2 {
+    top: 150px;
+    background-image: url("img/service_img2.png");
+}
+
+.cool_arrow_1:hover {
+    background-color: rgba(139, 31, 31, 0.62);
+    opacity: 1;
+}
+
+.rasm3 {
+    right: 0;
+    background-image: url("img/service_img3.png");
+}
+
+.rasm4 {
+    background-image: url("img/service_img4.png");
+}
+
+.cool_img {
+    display: flex;
+    /*justify-content: space-around;*/
+    margin-top: 100px;
+}
+
+.cool_img_2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cool_but_5 button {
+    text-align: center;
+    border: none;
+    width: 230px;
+    height: 60px;
+    background-color: #8b1f1f;
+    color: white;
+}
+
+.cool_but_5 button:hover {
+    background-color: orange;
+    transition: 1s;
+}
+
+.fon_main {
+    height: 100vh;
+    background-color: white;
+    background-image: url("img/cr00s1.png");
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.fan_main {
+    height: 100vh;
+    background-color: #fd990c;
+}
+
+.fan_list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fan_text h1 {
+    color: white;
+    font-size: 80px;
+}
+
+.fan_text p {
+    color: white;
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.fan_img img {
+    height: 300px;
+    width: 575px;
+    position: relative;
+    top: -50px;
+}
+
+.fan_but button {
+    color: white;
+    background-color: #9a1d1d;
+    width: 230px;
+    height: 60px;
+    border: none;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+
+.fan_but button:hover {
+    background-color: white;
+    color: black;
+}
+
+.fan_art {
+    height: 450px;
+    background-image: url("img/cr00s (1).png");
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+
+.red {
+    background-color: #540705;
+    height: 300px;
+}
+
+.got_main {
+    height: 74vh;
+    background-color: #540705;
+}
+
+.got_icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.got_icon_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.got_icon_1 img {
+    height: 30px;
+    width: 30px;
+}
+
+.got_hr {
+    display: flex;
+    justify-content: center;
+}
+
+.got_hr hr {
+    width: 1100px;
+    height: 2px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.got_text span {
+    color: orange;
+}
+
+.got_text h1 {
+    color: white;
+    font-size: 60px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.got_text p {
+    color: white;
+    font-size: 18px;
+}
+
+.got_text {
+    width: 320px;
+}
+
+.got_menu {
+    color: #ffffff;
+}
+
+.got_menu li {
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.got_menu li:hover {
+    color: orange;
+
+}
+
+.got_list_1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.got_arrow h2 {
+    color: white;
+}
+
+.got_arrow img {
+    height: 70px;
+    margin-top: 4px;
+    width: 120px;
+}
+
+.got_arrow_2 img {
+    height: 70px;
+    width: 120px;
+}
+
+.got_us {
+    color: white;
+    width: 200px;
+    font-size: 17px;
+}
+
+.got_hr_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.got_hr_2 hr {
+    width: 1100px;
+    height: 2px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.got_p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
